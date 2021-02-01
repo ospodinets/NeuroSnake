@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{42954034-4b4d-49e4-8468-695e1f83f0c7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="Snake.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Bonus.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="BonusView.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Cell.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyboardController.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MapObject.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MapView.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Obstacle.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ObstacleView.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="PassMap.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Settings.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Snake.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="SnakeWidget.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="View.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CellView.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Bonus.h">
+      <Filter>Source</Filter>
+    </QtMoc>
+    <QtMoc Include="Cell.h">
+      <Filter>Source</Filter>
+    </QtMoc>
+    <QtMoc Include="KeyboardController.h">
+      <Filter>Source</Filter>
+    </QtMoc>
+    <QtMoc Include="Map.h">
+      <Filter>Source</Filter>
+    </QtMoc>
+    <QtMoc Include="Obstacle.h">
+      <Filter>Source</Filter>
+    </QtMoc>
+    <QtMoc Include="Snake.h">
+      <Filter>Source</Filter>
+    </QtMoc>
+    <QtMoc Include="SnakeWidget.h">
+      <Filter>Source</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BonusView.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="MapObject.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="MapView.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="ObstacleView.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="PassMap.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="View.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CellView.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="SnakeWidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+</Project>
